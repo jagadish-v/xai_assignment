@@ -15,7 +15,7 @@ load_dotenv()
 GROK_API_KEY=os.getenv('GROK_API_KEY')
 
 FILENAME = "leads.json"
-NUM_LEADS = 1
+NUM_LEADS = 10
 
 # Initialize the language model
 llm = ChatXAI(model="grok-4", api_key=GROK_API_KEY)
