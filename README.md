@@ -11,7 +11,7 @@ pip install -r requirements.txt
 There are 3 main modules.
 
 ### synthetic_lead_generator.py
-This module contains the GrokDataGenerator class that uses Grok-4 to generate synthetic leads data. The data is structured consistent with the schema that is contained in the `lead_management.py` file. This module is used to generate `count` number of leads. Further customization of the leads is possible by setting the `quality_context` (not shown in the demo example)
+This module contains the GrokDataGenerator class that uses Grok-4 to generate synthetic leads data. The data is structured consistent with the schema that is contained in the `lead_management.py` file. This module is used to generate `count` number of leads. Further customization of the leads is possible by setting the `quality_context` (only shown for the "mixed" type in the demo example)
 
 ### lead_management.py
 This module defines the data structure for what a lead looks like. It contains various functions to add, delete, edit, find and update leads with various attributes. The `qualify_lead` function creates scores for each lead based on various factors like the company size, budget, authority of decision making, need / painpoints, and timeline. This module further classifies the leads as `qualified` or `unqualified`. The `create_lead_objects_from_data` module converts synthetically generated leads data to the Lead class and scores them. This module returns a list of the scored lead IDs.
