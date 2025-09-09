@@ -1,0 +1,27 @@
+[
+    {
+        "first_name": "Emily",
+        "last_name": "Rodriguez",
+        "email": "emily.rodriguez@techinnovate.com",
+        "company": "TechInnovate Solutions",
+        "phone": "+1-555-123-4567",
+        "title": "VP of Operations",
+        "lead_source": "linkedin",
+        "status": "new",
+        "company_size": 250,
+        "annual_revenue": 50000000,
+        "budget": 150000,
+        "decision_maker": true,
+        "pain_points": [
+            "manual processes",
+            "data silos",
+            "scaling challenges"
+        ],
+        "timeline": "6_months",
+        "notes": "Emily reached out via LinkedIn after seeing our post on automation tools. She's interested in streamlining their supply chain operations. Follow-up call scheduled to discuss integration with their existing CRM.",
+        "tags": [
+            "tech",
+            "mid-size"
+        ]
+    }
+]
